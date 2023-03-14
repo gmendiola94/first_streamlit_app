@@ -47,7 +47,7 @@ except URLError as e:
 
 
 # fetch snowflake fruit list (section)
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 
 
 def get_fruit_list():
