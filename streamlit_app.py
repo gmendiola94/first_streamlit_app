@@ -3,8 +3,12 @@ import pandas as pd
 import requests as rq
 import snowflake.connector
 from urllib.error import URLError
+from PIL import Image
 
-streamlit.title("👨‍🦲Bert's Kitchen")
+streamlit.title("Bert's Kitchen")
+image = Image.open('img/bert.png')
+streamlit.image(image, caption='Hi, I\'m Bert')
+
 streamlit.header("Breakfast Menu")
 streamlit.text("🫐Omega 3 & Blueberry Oatmeal")
 streamlit.text("🥗Kale, Spinach & Rocket Smoothie")
